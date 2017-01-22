@@ -93,9 +93,9 @@ namespace UnitTestProject1
             HomePage.ClickWorkForceExperience();
 
             FairsailWX_Selenium WXPage = new FairsailWX_Selenium(driver);
-            WXPage.ClickTime();
-            WXPage.ClickPTO_Requests();
-            WXPage.ClickNewAbsense();
+            //WXPage.ClickTime();
+           // WXPage.ClickPTO_Requests();
+           // WXPage.ClickNewAbsense();
             WXPage.ClickStartDate();
             WXPage.ClickEndate();
             WXPage.SelectReason();
